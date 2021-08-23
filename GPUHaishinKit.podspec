@@ -15,12 +15,12 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/shogo4405/GPUHaishinKit.swift.git", :tag => "#{s.version}" }
   s.social_media_url = "http://twitter.com/shogo4405"
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.ios.source_files = "Platforms/iOS/*.{h,swift}"
 
   s.source_files = "Sources/**/*.swift"
-  s.dependency 'GPUImage', '~> 0.1.7'
-  s.dependency 'HaishinKit', '~> 0.8.0'
+  s.dependency 'GPUImage'
+  s.dependency 'HaishinKit'
 
 end
 
